@@ -1,5 +1,6 @@
 import { redd } from "../data/content";
 import Reveal from "./Reveal";
+import YouTubeFacade from "./YouTubeFacade";
 
 export default function Redd() {
   return (
@@ -12,6 +13,29 @@ export default function Redd() {
             {redd.title}
           </h2>
           <p className="mt-5 text-lg leading-relaxed text-ink/75">{redd.intro}</p>
+        </Reveal>
+
+        {/* The project film follows the introduction as the primary proof point. */}
+        <Reveal className="mt-14">
+          <article className="rounded-2xl border border-line bg-bone p-4 sm:p-6 lg:p-8">
+            <div className="max-w-3xl px-1 pb-7 sm:px-2 lg:pb-9">
+              <p className="text-xs font-semibold uppercase tracking-eyebrow text-moss">
+                {redd.video.eyebrow}
+              </p>
+              <h3 className="mt-4 font-display text-2xl font-light leading-tight text-ink md:text-3xl">
+                {redd.video.heading}
+              </h3>
+              <p className="mt-4 leading-relaxed text-ink/70">{redd.video.description}</p>
+            </div>
+            <YouTubeFacade
+              videoId={redd.video.videoId}
+              title={redd.video.title}
+              label={redd.video.playLabel}
+            />
+            <p className="px-1 pt-4 text-sm text-ink/55 sm:px-2">
+              {redd.video.caption}
+            </p>
+          </article>
         </Reveal>
 
         {/* Territory map — lead visual for the subsection */}

@@ -27,7 +27,7 @@ export default function Header() {
           <img
             src={solid ? "/images/logo-greenbr.png" : "/images/logo-greenbr-white.png"}
             alt="GreenBR"
-            className="h-9 w-auto md:h-10"
+            className="h-12 w-auto md:h-14"
           />
         </a>
 

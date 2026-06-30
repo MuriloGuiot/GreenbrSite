@@ -56,6 +56,16 @@ export const redd = {
   title: "GreenBR Savanna Mirador REDD+ Project",
   intro:
     "A single AFOLU project on private properties in the Brazilian Cerrado, designed to keep forests standing and to reward the people who keep them that way.",
+  video: {
+    eyebrow: "Project film",
+    heading: "See the Mirador territory — and the work behind its protection.",
+    description:
+      "A field-level view of the landscape, people and long-term stewardship that turn the GreenBR Savanna Mirador REDD+ Project from a climate commitment into work on the ground.",
+    caption: "GreenBR Mirador Farms · Project documentary",
+    title: "GreenBR Mirador Farms",
+    playLabel: "Watch the project film",
+    videoId: "gx31u4SvXpI",
+  },
   timeline: [
     {
       date: "December 2022",
@@ -95,6 +105,32 @@ export const redd = {
   },
   legalNote:
     "Under Brazil\u2019s Forest Code (Law 12.651), landowners in the Legal Amazon must conserve 80% of forest cover and 35% of Cerrado areas. The project rewards conservation that goes beyond these legal minimums, where land could otherwise be converted with environmental-agency approval.",
+};
+
+export const climateContext = {
+  eyebrow: "Global climate reality",
+  title: "Why adaptation matters.",
+  intro:
+    "Protecting the Cerrado is local work with global consequence. These perspectives from the UN Environment Programme place GreenBR’s conservation efforts within the wider adaptation challenge — where resilient landscapes, water systems and communities are essential climate infrastructure.",
+  videos: [
+    {
+      source: "UN Environment Programme",
+      title: "Underfinanced. Underprepared. #AdaptationGap",
+      description:
+        "A concise view of the widening gap between the scale of climate risk and the resources currently available to help communities adapt.",
+      playLabel: "Watch UNEP perspective",
+      videoId: "7iMlFxGXS_k",
+    },
+    {
+      source: "UN Environment Programme",
+      title:
+        "Come hell or high water, the world must get serious about #climate #adaptation",
+      description:
+        "A direct call to treat adaptation as an urgent, practical priority — protecting people and ecosystems from impacts already underway.",
+      playLabel: "Watch UNEP perspective",
+      videoId: "1je_W0o2rcc",
+    },
+  ],
 };
 
 export const impact = {
